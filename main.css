@@ -1,0 +1,180 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+ul.paginatioon {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 350px;
+  margin-left: 710px;
+  top: 100px;
+}
+ul {
+  position: relative;
+  background: #fff;
+  display: flex;
+  padding: 10px 20px;
+  border-radius: 50px;
+  box-shadow: 0 5px 15px rgb(0, 0, 2);
+}
+
+ul li {
+  list-style: none;
+  line-height: 50px;
+  margin: 0;
+}
+
+ul li.pageNumber {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+ul li a {
+  display: block;
+  text-decoration: none;
+  color: #777;
+  font-weight: 600;
+  border-radius: 50%;
+}
+
+ul li.pageNumber:hover a,
+ul li.pageNumber.active a {
+  background: #333;
+  color: #fff;
+}
+
+ul li:first-child {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+ul li:last-child {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+main div#logo > img {
+  left: 50;
+}
+
+main {
+  width: 804px;
+  margin: 0 auto;
+  grid-template-columns: 132px 350px auto;
+  display: grid;
+  gap: 34px;
+  margin-top: 180px;
+}
+
+main div#logo {
+  display: grid;
+  place-items: center;
+  padding-left: 550px;
+  padding-bottom: 150px;
+  border-right: 1px;
+}
+main div#logo h1 {
+  font-size: 1.8rem;
+  font-weight: 100;
+  margin: 0;
+}
+
+main div#picture img {
+  width: 100%;
+  display: block;
+  padding-bottom: 22px;
+  border-bottom: 1px dashed #ccc;
+}
+
+main div#story p {
+  margin: 0;
+}
+main div#story {
+  display: flex;
+  flex-direction: column;
+}
+article {
+  position: relative;
+  display: inline-block;
+}
+
+main div#story article {
+  flex-grow: 1;
+  margin-top: 0;
+}
+
+.quote {
+  position: absolute;
+
+  right: 290px;
+  width: 100%;
+
+  padding: 10px;
+}
+
+.author {
+  margin-top: 30px;
+}
+
+main div#story article {
+  flex-grow: 1;
+  margin-top: 160px;
+}
+
+main div#story h2 {
+  float: right;
+  margin: 5px;
+  margin-left: 0;
+  padding-bottom: 140px;
+  font-weight: lighter;
+  color: rgb(228, 228, 228);
+}
+
+main div#story article p.quote {
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 1rem;
+  margin-top: 120px;
+}
+
+main div#story article p.author {
+  color: #999;
+  height: 254px;
+  width: 22px;
+}
+
+main div#story article p.year {
+  color: #999;
+  font-size: 0.8rem;
+}
+
+main div#story p.copy {
+  color: #e0e0e0;
+  font-size: 0.8rem;
+}
+
+.next-page-link {
+  display: inline-block;
+  padding: 10px 20px;
+
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.next-page-link:hover {
+  background-color: #2980b9;
+}
+
+.custom-link {
+  padding-left: 900px;
+  margin-top: 20px;
+}
